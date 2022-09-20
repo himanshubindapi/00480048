@@ -16,16 +16,9 @@
         <div>
             <h2>Hello
                 <?php
-                     echo $_POST["fname"];
-                     echo $_POST["sname"];
-                     echo "! Greetings from BindAPI.";
+                     echo $_POST["fname"] ,$_POST["sname"], "! Greetings from BindAPI.";
                  ?>
-
-                      
-
-                      
             </h2>
-            
         </div>
     </div>
 </body>

@@ -14,9 +14,9 @@
             <button type="submit" name="submit">send</button><br><br>
         </form>
         <div>
-            <h2>Hello
+            <h2>
                 <?php
-                     echo $_POST["fname"] ,$_POST["sname"], "! Greetings from BindAPI.";
+                     echo "Hello " . $_POST['fname'] . " " . $_POST['sname'] . "! Greetings from BindAPI.";
                  ?>
             </h2>
         </div>
